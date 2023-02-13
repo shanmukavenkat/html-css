@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .card{
+      background-color: #47a3f3;
+      height: 400px;
+      width:700px;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input type="checkbox" name="subjects">maths</checkbox>
+<input type="checkbox" name="subjects">physics</checkbox>
+<input type="checkbox" name="subjects">chemistry</checkbox>
+
+<input type="checkbox" name="subjects">biology</checkbox>
+<table>
+  <th> new languages</th>
+<select name="language">
+  <option value="tamil"> spanish</option>
+  <option value="telugu"> telugu</option>
+  <option value="korea"> korea</option>
+  <option value="malayam">malayam</option>
+  <option value="english"> english</option>
+</table>
+</select>
+<div class="card">
+  <form>
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <input type="submit">
+  </form>
+
+  <form >
+    <p>Please select your favorite Web language:</p>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+
+    <br>
+
+    <p>Please select your age:</p>
+    <input type="radio" id="age1" name="age" value="30">
+    <label for="age1">0 - 30</label><br>
+    <input type="radio" id="age2" name="age" value="60">
+    <label for="age2">31 - 60</label><br>
+    <input type="radio" id="age3" name="age" value="100">
+    <label for="age3">61 - 100</label><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
